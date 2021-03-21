@@ -7,7 +7,7 @@ const VehicleInfo = () => {
     const { id } =useParams(); 
         
     const [vehicles, setVehicles] = useState([]);
-    const {vehicleImage,vehicleSeat,ticketPrice, from, to} = vehicles;
+    const {vehicleName, vehicleImage,vehicleSeat,ticketPrice, from, to} = vehicles;
 
     useEffect(() => {
         setVehicles(fakeData[id-1])
@@ -25,15 +25,18 @@ const VehicleInfo = () => {
                         </div>
                         <div class="border rounded mt-3 mb-3">
                             <img style={{ width: '75px' }} src={vehicleImage} alt="" />
-                            <img class="ml-3" style={{ width: '40px' }} src="https://static.thenounproject.com/png/292059-200.png" alt="" /> <strong> {vehicleSeat}</strong> <strong class="ml-5">${ticketPrice}</strong>
+                            <strong class="ml-5"> {vehicleName}</strong>
+                            <img class="ml-3" style={{ width: '40px' }} src="https://e7.pngegg.com/pngimages/73/985/png-clipart-computer-icons-person-icon-design-knowledge-miscellaneous-blue.png" alt="" /> <strong> {vehicleSeat}</strong> <strong class="ml-5">${ticketPrice}</strong>
                         </div>
                         <div class="border rounded mt-3 mb-3">
                             <img style={{ width: '75px' }} src={vehicleImage} alt="" />
-                            <img class="ml-3" style={{ width: '40px' }} src="https://static.thenounproject.com/png/292059-200.png" alt="" /> <strong> {vehicleSeat}</strong> <strong class="ml-5"> ${ticketPrice}</strong>
+                            <strong class="ml-5"> {vehicleName}
+                            <img class="ml-3" style={{ width: '40px' }} src="https://e7.pngegg.com/pngimages/73/985/png-clipart-computer-icons-person-icon-design-knowledge-miscellaneous-blue.png" alt="" /> </strong> <strong> {vehicleSeat}</strong> <strong class="ml-5"> ${ticketPrice}</strong>
                         </div>
                         <div class="border rounded mt-3 mb-3">
                             <img style={{ width: '75px' }} src={vehicleImage} alt="" />
-                            <img class="ml-3" style={{ width: '40px' }} src="https://static.thenounproject.com/png/292059-200.png" alt="" /> <strong> {vehicleSeat}</strong> <strong class="ml-5"> ${ticketPrice}</strong>
+                            <strong class="ml-5"> {vehicleName}</strong>
+                            <img class="ml-3" style={{ width: '40px' }} src="https://e7.pngegg.com/pngimages/73/985/png-clipart-computer-icons-person-icon-design-knowledge-miscellaneous-blue.png" alt="" /> <strong> {vehicleSeat}</strong> <strong class="ml-5"> ${ticketPrice}</strong>
                         </div>
                     </div>
                 </div>

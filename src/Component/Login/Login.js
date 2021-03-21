@@ -137,7 +137,7 @@ const Login = () => {
     return (
         <div className="container">
             <div className="col-md-12">
-                <div className="card bg-light shadow radius rounded  mx-auto mt-5" style={{ width: '30rem', height: '32rem' }}>
+                <div className="card bg-light shadow radius rounded  mx-auto mt-5" style={{ width: '25rem', height: '32rem' }}>
 
                     
                     <form className="p-3" onSubmit={handleSubmit}>
