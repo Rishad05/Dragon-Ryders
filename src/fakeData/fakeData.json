@@ -1,0 +1,37 @@
+[{
+    "id": 1,
+    "vehicleName": "BIKE",
+    "vehicleSeat":2,
+    "ticketPrice":50,
+    "from":"Uttara",
+    "to":"Mohakhali",
+    "vehicleImage": "https://cdn.bajajauto.com/bajaj-images/home/avenger-cruise220n.png",
+    "vehicleDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore expedita quae, eligendi excepturi at dignissimos? Itaque reiciendis fuga quam est."
+  }, {
+    "id": 2,
+    "vehicleName": "CAR",
+    "vehicleSeat":4,
+    "ticketPrice":200,
+    "from":"Mirpur-1",
+    "to":"Savar",
+    "vehicleImage": "https://atlas-content-cdn.pixelsquid.com/stock-images/classic-european-compact-car-hatchback-4o7XZQ6-600.jpg",
+    "vehicleDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore expedita quae, eligendi excepturi at dignissimos? Itaque reiciendis fuga quam est."
+  }, {
+    "id": 3,
+    "vehicleName": "BUS",
+    "vehicleSeat":25,
+    "ticketPrice":350,
+    "from":"Dhaka",
+    "to":"Noakhali",
+    "vehicleImage": "https://www.uttaramotorsltd.com/wp-content/uploads/2015/12/LT-Bus.png",
+    "vehicleDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore expedita quae, eligendi excepturi at dignissimos? Itaque reiciendis fuga quam est."
+  }, {
+    "id": 4,
+    "vehicleName": "TRAIN",
+    "vehicleSeat":50,
+    "ticketPrice":250,
+    "from":"Chottogram",
+    "to":"Shylet",
+    "vehicleImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCDdOazPvLU8M4dhtGMyTfecr_FeKJEp24kg&usqp=CAU",
+    "vehicleDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore expedita quae, eligendi excepturi at dignissimos? Itaque reiciendis fuga quam est."
+  }]
